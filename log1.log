@@ -1,0 +1,32 @@
+Script started on Thu Aug 13 22:40:09 2015
+[?1034hbash-3.2$ ls
+Employee.cpp	Employee.h	Employee.o	IndexList.h	Makefile	log1		main.cpp
+bash-3.2$ make
+g++  -c  main.cpp  -o main.o
+g++   -o  main Employee.o main.o
+bash-3.2$ ma[K[Kls
+Employee.cpp	Employee.o	Makefile	main		main.o
+Employee.h	IndexList.h	log1		main.cpp
+bash-3.2$ main
+bash: main: command not found
+bash-3.2$ ./main
+List of type "Employee"
+Enter the number of employees: raza
+Employee list sorted in ascending order
+bash-3.2$ ./main
+List of type "Employee"
+Enter the number of employees: 3
+Enter the next name: rza  aza
+Enter the next phone number: 555   1111 -1111
+Enter the next name: link
+Enter the next phone number: 222-2222
+Enter the next name: zelda     lights
+Enter the next phone number: 33303     000-0000
+Employee list sorted in ascending order
+lights
+link
+raza
+bash-3.2$ exit
+exit
+
+Script done on Thu Aug 13 22:41:26 2015
